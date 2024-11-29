@@ -1,0 +1,6 @@
+inherit_from: ../../.rubocop.yml
+
+require:
+  - rubocop-performance
+  - rubocop-rails
+  - rubocop-rails-accessibility

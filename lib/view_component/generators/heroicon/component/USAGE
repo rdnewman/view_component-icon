@@ -1,0 +1,11 @@
+Description:
+    Stubs in files for a ViewComponent of a Heroicon's svg paths (heroicons.com)
+
+Example:
+    bin/rails generate heroicon:component SomeIconName
+
+    This will create:
+        app/components/heroicon/outline/some_icon_name_component.rb
+        app/components/heroicon/outline/some_icon_name_component.html
+        app/components/heroicon/solid/some_icon_name_component.rb
+        app/components/heroicon/solid/some_icon_name_component.html

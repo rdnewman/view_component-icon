@@ -1,0 +1,6 @@
+module Heroicon
+  module Solid
+    class <%= class_name %>Component < ApplicationComponent
+    end
+  end
+end

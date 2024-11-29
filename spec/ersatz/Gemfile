@@ -1,0 +1,13 @@
+source "https://rubygems.org"
+
+ruby "3.2.1"
+
+gem "rails", "~> 7.1.5"
+gem "sprockets-rails"
+
+# gem "view_component", path: "../../../view_component"
+gem "view_component-icon", path: "../.."
+
+gem "rspec-rails"
+
+gem "rspec-html-matchers"
