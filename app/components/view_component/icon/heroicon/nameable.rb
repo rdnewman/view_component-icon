@@ -36,12 +36,14 @@ module ViewComponent
 
           def synonym
             {
-              destroy: :x,
-              delete: :x,
+              destroy: :x_mark,
+              delete: :x_mark,
               edit: :pencil,
               prev: :chevron_left,
               previous: :chevron_left,
-              next: :chevron_right
+              next: :chevron_right,
+              qrcode: :qr_code,
+              x: :x_mark
             }
           end
         end

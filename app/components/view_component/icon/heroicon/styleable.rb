@@ -11,7 +11,7 @@ module ViewComponent
         module ClassMethods # rubocop:disable Style/Documentation
           # Supports defining the style of the icon in the subclass
           def style=(value)
-            @style ||= value # rubocop:disable Naming/MemoizedInstanceVariableName
+            @style ||= value
           end
 
           # @return [Symbol] style of icon

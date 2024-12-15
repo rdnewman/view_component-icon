@@ -52,6 +52,8 @@ module ViewComponent
 
         def style_classes
           @style_classes ||= {
+            micro: ::ViewComponent::Icon::Heroicon::MicroIconComponent,
+            mini: ::ViewComponent::Icon::Heroicon::MiniIconComponent,
             outline: ::ViewComponent::Icon::Heroicon::OutlineIconComponent,
             solid: ::ViewComponent::Icon::Heroicon::SolidIconComponent
           }

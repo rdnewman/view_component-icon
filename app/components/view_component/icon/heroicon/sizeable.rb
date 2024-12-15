@@ -15,7 +15,7 @@ module ViewComponent
         module ClassMethods # rubocop:disable Style/Documentation
           # Supports defining the default size of the icon in the subclass
           def default_size=(size_value)
-            @default_size ||= size_value # rubocop:disable Naming/MemoizedInstanceVariableName
+            @default_size ||= size_value
           end
 
           # @return [Integer] default size of icon

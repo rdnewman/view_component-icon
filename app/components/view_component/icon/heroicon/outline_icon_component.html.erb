@@ -1,12 +1,13 @@
-<%# See https://heroicons.com/ %>
+<%# See https://heroicons.com/outline %>
 <svg
   xmlns="http://www.w3.org/2000/svg"
   style="height: <%= size %>rem; width: <%= size %>rem;"
   fill="none"
   viewBox="0 0 24 24"
   preserveAspectRatio="xMinYMin slice"
+  stroke-width="1.5"
   stroke="currentColor"
-  stroke-width="2"
-  aria-hidden="true">
+  aria-hidden="true"
+  data-slot="icon">
   <%= render(icon_class.new) %>
 </svg>

@@ -1,4 +1,6 @@
 module ViewComponent
+  # Module for gem support
+  # @api private
   module Icon
     class << self
       # Current configuration

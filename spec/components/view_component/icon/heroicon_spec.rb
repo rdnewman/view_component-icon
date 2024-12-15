@@ -1,6 +1,6 @@
 RSpec.describe ViewComponent::Icon::Heroicon do
   it "can provide a list of styles it supports" do
-    expect(described_class.recognized_styles).to contain_exactly(:outline, :solid)
+    expect(described_class.recognized_styles).to contain_exactly(:micro, :mini, :outline, :solid)
   end
 
   describe "#fetch" do
