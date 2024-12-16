@@ -84,6 +84,24 @@ module ViewComponent
           :view_columns, :viewfinder_circle, :wallet, :wifi, :window, :wrench,
           :wrench_screwdriver, :x_circle, :x_mark
         ]
+
+        # self.alternate_names = {
+        #   bars2: bars_2,
+        #   bars3: bars_3,
+        #   bars3_bottom_left: bars_3_bottom_left,
+        #   bars3_bottom_right: bars_3_bottom_right,
+        #   bars3_center_left: bars_3_center_left,
+        #   bars4: bars_4,
+        #   battery0: battery_0,
+        #   battery100: battery_100,
+        #   battery50: battery_50,
+        #   building_office2: building_office_2,
+        #   cog6_tooth: cog_6_tooth,
+        #   cog8_tooth: cog_8_tooth,
+        #   square2_stack: square_2_stack,
+        #   square3_stack3d: square_3_stack_3d,
+        #   x_mark: x_mark
+        # }
       end
     end
   end
